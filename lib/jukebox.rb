@@ -9,3 +9,6 @@ end
 
 def exit_jukebox
 end
+
+def run 
+end

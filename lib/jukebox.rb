@@ -40,7 +40,7 @@ def run(songs)
       when "help"
         help
       else 
-        "Please enter a command:"
+        "Please enter a valid command:"
       end
   end
   exit_jukebox

@@ -39,6 +39,9 @@ def run(songs)
         list(songs)
       when "help"
         help
+      else 
+        "Please enter a command:"
+      end
   end
   exit_jukebox
 end

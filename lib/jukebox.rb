@@ -11,6 +11,8 @@ def play(songs)
   input = gets.strip
   if songs.include?(input)
     puts "Playing #{input}"
+  elsif input.to_i - 1 
+    puts "Playing #{songs[input.to_i - 1]}"
   end
 end
 

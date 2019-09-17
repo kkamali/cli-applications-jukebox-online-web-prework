@@ -7,6 +7,7 @@ def help
 end
 
 def play
+  puts "Please enter a song name or number:"
 end
 
 def list(songs)

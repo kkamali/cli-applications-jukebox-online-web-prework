@@ -9,6 +9,7 @@ end
 def play
   puts "Please enter a song name or number:"
   input = gets.strip
+  puts input
 end
 
 def list(songs)

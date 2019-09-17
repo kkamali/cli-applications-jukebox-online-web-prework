@@ -13,6 +13,8 @@ def play(songs)
     puts "Playing #{input}"
   elsif input.to_i - 1 
     puts "Playing #{songs[input.to_i - 1]}"
+  else
+    puts "Invalid input, please try again"
   end
 end
 

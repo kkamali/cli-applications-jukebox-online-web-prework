@@ -11,6 +11,7 @@ def play(songs)
   input = gets.strip
   if songs.include?(input)
     puts "Playing #{input}"
+  end
 end
 
 def list(songs)
